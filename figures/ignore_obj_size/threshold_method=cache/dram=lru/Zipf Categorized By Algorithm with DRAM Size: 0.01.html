@@ -855,65 +855,65 @@
 <h5 id="detail-table">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">     Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">     Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>CLOCK        </td><td style="text-align: right;">99,499,830</td><td style="text-align: right;">     493,900</td><td style="text-align: right;">99,993,730</td><td style="text-align: right;">     99,499,830</td><td style="text-align: right;">          493,900</td><td style="text-align: right;">  99,993,730</td><td style="text-align: right;">          499,927</td><td style="text-align: right;">       99,495,043</td><td style="text-align: right;">          0.995   </td><td style="text-align: right;">            0.99495 </td><td style="text-align: right;">    499,927</td><td style="text-align: right;">      504,957</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0           592256     592284  ...       0.01                         1
-1           592382     592348  ...       0.01                         1
-2           592326     592297  ...       0.01                         1
-3           592303     592269  ...       0.01                         1
-4           592274     592245  ...       0.01                         1
-..             ...        ...  ...        ...                       ...
-163         592284     592248  ...       0.01                         1
-164         592172     592152  ...       0.01                         1
-165         592288     592264  ...       0.01                         1
-166         592388     592361  ...       0.01                         1
-167         592223     592196  ...       0.01                         1
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>CLOCK        </td><td style="text-align: right;">99,499,830</td><td style="text-align: right;">     493,900</td><td style="text-align: right;">99,993,730</td><td style="text-align: right;">     99,499,830</td><td style="text-align: right;">          493,900</td><td style="text-align: right;">  99,993,730</td><td style="text-align: right;">          499,927</td><td style="text-align: right;">       99,495,043</td><td style="text-align: right;">          0.995   </td><td style="text-align: right;">            0.99495 </td><td style="text-align: right;">    499,927</td><td style="text-align: right;">      504,957</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0           592256     592284       2920             2884  ...      595140      CLOCK       0.01                         1
+1           592382     592348       2858             2821  ...      595203      CLOCK       0.01                         1
+2           592326     592297       2910             2872  ...      595198      CLOCK       0.01                         1
+3           592303     592269       2946             2901  ...      595204      CLOCK       0.01                         1
+4           592274     592245       2969             2938  ...      595212      CLOCK       0.01                         1
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163         592284     592248       2965             2923  ...      595207      CLOCK       0.01                         1
+164         592172     592152       3049             3014  ...      595186      CLOCK       0.01                         1
+165         592288     592264       2943             2912  ...      595200      CLOCK       0.01                         1
+166         592388     592361       2849             2817  ...      595205      CLOCK       0.01                         1
+167         592223     592196       3016             2983  ...      595206      CLOCK       0.01                         1
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>FIFO         </td><td style="text-align: right;">99,499,814</td><td style="text-align: right;">           0</td><td style="text-align: right;">99,499,814</td><td style="text-align: right;">     99,499,814</td><td style="text-align: right;">                0</td><td style="text-align: right;">  99,499,814</td><td style="text-align: right;">          499,904</td><td style="text-align: right;">       99,495,066</td><td style="text-align: right;">          0.995001</td><td style="text-align: right;">            0.994951</td><td style="text-align: right;">    499,904</td><td style="text-align: right;">      504,934</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0           592254     592287  ...       0.01                         1
-1           592384     592354  ...       0.01                         1
-2           592329     592296  ...       0.01                         1
-3           592290     592265  ...       0.01                         1
-4           592270     592247  ...       0.01                         1
-..             ...        ...  ...        ...                       ...
-163         592276     592252  ...       0.01                         1
-164         592180     592150  ...       0.01                         1
-165         592287     592264  ...       0.01                         1
-166         592387     592363  ...       0.01                         1
-167         592223     592192  ...       0.01                         1
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>FIFO         </td><td style="text-align: right;">99,499,814</td><td style="text-align: right;">           0</td><td style="text-align: right;">99,499,814</td><td style="text-align: right;">     99,499,814</td><td style="text-align: right;">                0</td><td style="text-align: right;">  99,499,814</td><td style="text-align: right;">          499,904</td><td style="text-align: right;">       99,495,066</td><td style="text-align: right;">          0.995001</td><td style="text-align: right;">            0.994951</td><td style="text-align: right;">    499,904</td><td style="text-align: right;">      504,934</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0           592254     592287       2917                0  ...      592254       FIFO       0.01                         1
+1           592384     592354       2852                0  ...      592384       FIFO       0.01                         1
+2           592329     592296       2911                0  ...      592329       FIFO       0.01                         1
+3           592290     592265       2950                0  ...      592290       FIFO       0.01                         1
+4           592270     592247       2967                0  ...      592270       FIFO       0.01                         1
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163         592276     592252       2961                0  ...      592276       FIFO       0.01                         1
+164         592180     592150       3051                0  ...      592180       FIFO       0.01                         1
+165         592287     592264       2943                0  ...      592287       FIFO       0.01                         1
+166         592387     592363       2847                0  ...      592387       FIFO       0.01                         1
+167         592223     592192       3020                0  ...      592223       FIFO       0.01                         1
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>LRU          </td><td style="text-align: right;">99,499,855</td><td style="text-align: right;">     495,065</td><td style="text-align: right;">99,994,920</td><td style="text-align: right;">     99,499,855</td><td style="text-align: right;">          495,065</td><td style="text-align: right;">  99,994,920</td><td style="text-align: right;">          499,881</td><td style="text-align: right;">       99,495,089</td><td style="text-align: right;">          0.995001</td><td style="text-align: right;">            0.994951</td><td style="text-align: right;">    499,881</td><td style="text-align: right;">      504,911</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0           592253     592284  ...       0.01                         1
-1           592386     592351  ...       0.01                         1
-2           592323     592294  ...       0.01                         1
-3           592296     592268  ...       0.01                         1
-4           592274     592247  ...       0.01                         1
-..             ...        ...  ...        ...                       ...
-163         592274     592250  ...       0.01                         1
-164         592172     592145  ...       0.01                         1
-165         592287     592268  ...       0.01                         1
-166         592387     592362  ...       0.01                         1
-167         592220     592195  ...       0.01                         1
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>LRU          </td><td style="text-align: right;">99,499,855</td><td style="text-align: right;">     495,065</td><td style="text-align: right;">99,994,920</td><td style="text-align: right;">     99,499,855</td><td style="text-align: right;">          495,065</td><td style="text-align: right;">  99,994,920</td><td style="text-align: right;">          499,881</td><td style="text-align: right;">       99,495,089</td><td style="text-align: right;">          0.995001</td><td style="text-align: right;">            0.994951</td><td style="text-align: right;">    499,881</td><td style="text-align: right;">      504,911</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0           592253     592284       2920             2902  ...      595155        LRU       0.01                         1
+1           592386     592351       2855             2820  ...      595206        LRU       0.01                         1
+2           592323     592294       2913             2884  ...      595207        LRU       0.01                         1
+3           592296     592268       2947             2919  ...      595215        LRU       0.01                         1
+4           592274     592247       2967             2940  ...      595214        LRU       0.01                         1
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163         592274     592250       2963             2939  ...      595213        LRU       0.01                         1
+164         592172     592145       3056             3029  ...      595201        LRU       0.01                         1
+165         592287     592268       2939             2920  ...      595207        LRU       0.01                         1
+166         592387     592362       2848             2823  ...      595210        LRU       0.01                         1
+167         592220     592195       3017             2992  ...      595212        LRU       0.01                         1
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>Offline CLOCK</td><td style="text-align: right;">99,497,420</td><td style="text-align: right;">       4,866</td><td style="text-align: right;">99,502,286</td><td style="text-align: right;">    198,997,250</td><td style="text-align: right;">          498,766</td><td style="text-align: right;"> 199,496,016</td><td style="text-align: right;">        1,002,239</td><td style="text-align: right;">      198,987,701</td><td style="text-align: right;">          0.994977</td><td style="text-align: right;">            0.994927</td><td style="text-align: right;">    502,312</td><td style="text-align: right;">      507,342</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0           592244     592277  ...       0.01                         1
-1           592367     592337  ...       0.01                         1
-2           592314     592281  ...       0.01                         1
-3           592281     592256  ...       0.01                         1
-4           592260     592236  ...       0.01                         1
-..             ...        ...  ...        ...                       ...
-163         592264     592240  ...       0.01                         1
-164         592167     592137  ...       0.01                         1
-165         592271     592248  ...       0.01                         1
-166         592376     592352  ...       0.01                         1
-167         592210     592179  ...       0.01                         1
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>Offline CLOCK</td><td style="text-align: right;">99,497,420</td><td style="text-align: right;">       4,866</td><td style="text-align: right;">99,502,286</td><td style="text-align: right;">    198,997,250</td><td style="text-align: right;">          498,766</td><td style="text-align: right;"> 199,496,016</td><td style="text-align: right;">        1,002,239</td><td style="text-align: right;">      198,987,701</td><td style="text-align: right;">          0.994977</td><td style="text-align: right;">            0.994927</td><td style="text-align: right;">    502,312</td><td style="text-align: right;">      507,342</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0           592244     592277       2927  ...  Offline CLOCK       0.01                         1
+1           592367     592337       2869  ...  Offline CLOCK       0.01                         1
+2           592314     592281       2926  ...  Offline CLOCK       0.01                         1
+3           592281     592256       2959  ...  Offline CLOCK       0.01                         1
+4           592260     592236       2978  ...  Offline CLOCK       0.01                         1
+..             ...        ...        ...  ...            ...        ...                       ...
+163         592264     592240       2973  ...  Offline CLOCK       0.01                         1
+164         592167     592137       3064  ...  Offline CLOCK       0.01                         1
+165         592271     592248       2959  ...  Offline CLOCK       0.01                         1
+166         592376     592352       2858  ...  Offline CLOCK       0.01                         1
+167         592210     592179       3033  ...  Offline CLOCK       0.01                         1
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -945,65 +945,65 @@
 <h5 id="detail-table_1">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>CLOCK        </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                0</td><td style="text-align: right;">       5,021</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0               34     595195  ...       0.01                         2
-1               32     595181  ...       0.01                         2
-2               31     595170  ...       0.01                         2
-3               23     595145  ...       0.01                         2
-4               24     595140  ...       0.01                         2
-..             ...        ...  ...        ...                       ...
-163             25     592328  ...       0.01                         2
-164             37     592291  ...       0.01                         2
-165             31     592149  ...       0.01                         2
-166             28     592292  ...       0.01                         2
-167             26     592215  ...       0.01                         2
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>CLOCK        </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                0</td><td style="text-align: right;">       5,021</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0               34     595195          9                0  ...          34      CLOCK       0.01                         2
+1               32     595181         25                0  ...          32      CLOCK       0.01                         2
+2               31     595170         37                0  ...          31      CLOCK       0.01                         2
+3               23     595145         70                0  ...          23      CLOCK       0.01                         2
+4               24     595140         74                0  ...          24      CLOCK       0.01                         2
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163             25     592328       2885                0  ...          25      CLOCK       0.01                         2
+164             37     592291       2910                0  ...          37      CLOCK       0.01                         2
+165             31     592149       3058                0  ...          31      CLOCK       0.01                         2
+166             28     592292       2918                0  ...          28      CLOCK       0.01                         2
+167             26     592215       2997                0  ...          26      CLOCK       0.01                         2
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>FIFO         </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                0</td><td style="text-align: right;">       5,021</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0               34     595195  ...       0.01                         2
-1               32     595181  ...       0.01                         2
-2               31     595170  ...       0.01                         2
-3               23     595145  ...       0.01                         2
-4               24     595140  ...       0.01                         2
-..             ...        ...  ...        ...                       ...
-163             25     592328  ...       0.01                         2
-164             37     592291  ...       0.01                         2
-165             31     592149  ...       0.01                         2
-166             28     592292  ...       0.01                         2
-167             26     592215  ...       0.01                         2
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>FIFO         </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                0</td><td style="text-align: right;">       5,021</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0               34     595195          9                0  ...          34       FIFO       0.01                         2
+1               32     595181         25                0  ...          32       FIFO       0.01                         2
+2               31     595170         37                0  ...          31       FIFO       0.01                         2
+3               23     595145         70                0  ...          23       FIFO       0.01                         2
+4               24     595140         74                0  ...          24       FIFO       0.01                         2
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163             25     592328       2885                0  ...          25       FIFO       0.01                         2
+164             37     592291       2910                0  ...          37       FIFO       0.01                         2
+165             31     592149       3058                0  ...          31       FIFO       0.01                         2
+166             28     592292       2918                0  ...          28       FIFO       0.01                         2
+167             26     592215       2997                0  ...          26       FIFO       0.01                         2
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>LRU          </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           9</td><td style="text-align: right;">  5,030</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                9</td><td style="text-align: right;">       5,030</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0               34     595195  ...       0.01                         2
-1               32     595181  ...       0.01                         2
-2               31     595170  ...       0.01                         2
-3               23     595145  ...       0.01                         2
-4               24     595140  ...       0.01                         2
-..             ...        ...  ...        ...                       ...
-163             25     592328  ...       0.01                         2
-164             37     592291  ...       0.01                         2
-165             31     592149  ...       0.01                         2
-166             28     592292  ...       0.01                         2
-167             26     592215  ...       0.01                         2
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>LRU          </td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           9</td><td style="text-align: right;">  5,030</td><td style="text-align: right;">          5,021</td><td style="text-align: right;">                9</td><td style="text-align: right;">       5,030</td><td style="text-align: right;">          253,552</td><td style="text-align: right;">       99,741,418</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0               34     595195          9                0  ...          34        LRU       0.01                         2
+1               32     595181         25                0  ...          32        LRU       0.01                         2
+2               31     595170         37                0  ...          31        LRU       0.01                         2
+3               23     595145         70                0  ...          23        LRU       0.01                         2
+4               24     595140         74                0  ...          24        LRU       0.01                         2
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163             25     592328       2885                0  ...          25        LRU       0.01                         2
+164             37     592291       2910                0  ...          37        LRU       0.01                         2
+165             31     592149       3058                0  ...          31        LRU       0.01                         2
+166             28     592292       2918                0  ...          28        LRU       0.01                         2
+167             26     592215       2997                0  ...          26        LRU       0.01                         2
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>Offline CLOCK</td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">         10,042</td><td style="text-align: right;">                0</td><td style="text-align: right;">      10,042</td><td style="text-align: right;">          507,104</td><td style="text-align: right;">      199,482,836</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0               34     595195  ...       0.01                         2
-1               32     595181  ...       0.01                         2
-2               31     595170  ...       0.01                         2
-3               23     595145  ...       0.01                         2
-4               24     595140  ...       0.01                         2
-..             ...        ...  ...        ...                       ...
-163             25     592328  ...       0.01                         2
-164             37     592291  ...       0.01                         2
-165             31     592149  ...       0.01                         2
-166             28     592292  ...       0.01                         2
-167             26     592215  ...       0.01                         2
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>Offline CLOCK</td><td style="text-align: right;">     5,021</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,021</td><td style="text-align: right;">         10,042</td><td style="text-align: right;">                0</td><td style="text-align: right;">      10,042</td><td style="text-align: right;">          507,104</td><td style="text-align: right;">      199,482,836</td><td style="text-align: right;">          0.997464</td><td style="text-align: right;">            0.997414</td><td style="text-align: right;">    253,552</td><td style="text-align: right;">      258,582</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0               34     595195          9  ...  Offline CLOCK       0.01                         2
+1               32     595181         25  ...  Offline CLOCK       0.01                         2
+2               31     595170         37  ...  Offline CLOCK       0.01                         2
+3               23     595145         70  ...  Offline CLOCK       0.01                         2
+4               24     595140         74  ...  Offline CLOCK       0.01                         2
+..             ...        ...        ...  ...            ...        ...                       ...
+163             25     592328       2885  ...  Offline CLOCK       0.01                         2
+164             37     592291       2910  ...  Offline CLOCK       0.01                         2
+165             31     592149       3058  ...  Offline CLOCK       0.01                         2
+166             28     592292       2918  ...  Offline CLOCK       0.01                         2
+167             26     592215       2997  ...  Offline CLOCK       0.01                         2
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1035,65 +1035,65 @@
 <h5 id="detail-table_2">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         4
-1                0     595206  ...       0.01                         4
-2                0     595207  ...       0.01                         4
-3                0     595215  ...       0.01                         4
-4                0     595214  ...       0.01                         4
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         4
-164              0     595201  ...       0.01                         4
-165              0     595207  ...       0.01                         4
-166              0     595210  ...       0.01                         4
-167              0     595212  ...       0.01                         4
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0      CLOCK       0.01                         4
+1                0     595206          0                0  ...           0      CLOCK       0.01                         4
+2                0     595207          0                0  ...           0      CLOCK       0.01                         4
+3                0     595215          0                0  ...           0      CLOCK       0.01                         4
+4                0     595214          0                0  ...           0      CLOCK       0.01                         4
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0      CLOCK       0.01                         4
+164              0     595201          0                0  ...           0      CLOCK       0.01                         4
+165              0     595207          0                0  ...           0      CLOCK       0.01                         4
+166              0     595210          0                0  ...           0      CLOCK       0.01                         4
+167              0     595212          0                0  ...           0      CLOCK       0.01                         4
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         4
-1                0     595206  ...       0.01                         4
-2                0     595207  ...       0.01                         4
-3                0     595215  ...       0.01                         4
-4                0     595214  ...       0.01                         4
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         4
-164              0     595201  ...       0.01                         4
-165              0     595207  ...       0.01                         4
-166              0     595210  ...       0.01                         4
-167              0     595212  ...       0.01                         4
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0       FIFO       0.01                         4
+1                0     595206          0                0  ...           0       FIFO       0.01                         4
+2                0     595207          0                0  ...           0       FIFO       0.01                         4
+3                0     595215          0                0  ...           0       FIFO       0.01                         4
+4                0     595214          0                0  ...           0       FIFO       0.01                         4
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0       FIFO       0.01                         4
+164              0     595201          0                0  ...           0       FIFO       0.01                         4
+165              0     595207          0                0  ...           0       FIFO       0.01                         4
+166              0     595210          0                0  ...           0       FIFO       0.01                         4
+167              0     595212          0                0  ...           0       FIFO       0.01                         4
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         4
-1                0     595206  ...       0.01                         4
-2                0     595207  ...       0.01                         4
-3                0     595215  ...       0.01                         4
-4                0     595214  ...       0.01                         4
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         4
-164              0     595201  ...       0.01                         4
-165              0     595207  ...       0.01                         4
-166              0     595210  ...       0.01                         4
-167              0     595212  ...       0.01                         4
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0        LRU       0.01                         4
+1                0     595206          0                0  ...           0        LRU       0.01                         4
+2                0     595207          0                0  ...           0        LRU       0.01                         4
+3                0     595215          0                0  ...           0        LRU       0.01                         4
+4                0     595214          0                0  ...           0        LRU       0.01                         4
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0        LRU       0.01                         4
+164              0     595201          0                0  ...           0        LRU       0.01                         4
+165              0     595207          0                0  ...           0        LRU       0.01                         4
+166              0     595210          0                0  ...           0        LRU       0.01                         4
+167              0     595212          0                0  ...           0        LRU       0.01                         4
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         4
-1                0     595206  ...       0.01                         4
-2                0     595207  ...       0.01                         4
-3                0     595215  ...       0.01                         4
-4                0     595214  ...       0.01                         4
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         4
-164              0     595201  ...       0.01                         4
-165              0     595207  ...       0.01                         4
-166              0     595210  ...       0.01                         4
-167              0     595212  ...       0.01                         4
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0  ...  Offline CLOCK       0.01                         4
+1                0     595206          0  ...  Offline CLOCK       0.01                         4
+2                0     595207          0  ...  Offline CLOCK       0.01                         4
+3                0     595215          0  ...  Offline CLOCK       0.01                         4
+4                0     595214          0  ...  Offline CLOCK       0.01                         4
+..             ...        ...        ...  ...            ...        ...                       ...
+163              0     595213          0  ...  Offline CLOCK       0.01                         4
+164              0     595201          0  ...  Offline CLOCK       0.01                         4
+165              0     595207          0  ...  Offline CLOCK       0.01                         4
+166              0     595210          0  ...  Offline CLOCK       0.01                         4
+167              0     595212          0  ...  Offline CLOCK       0.01                         4
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1125,65 +1125,65 @@
 <h5 id="detail-table_3">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                        </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         8
-1                0     595206  ...       0.01                         8
-2                0     595207  ...       0.01                         8
-3                0     595215  ...       0.01                         8
-4                0     595214  ...       0.01                         8
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         8
-164              0     595201  ...       0.01                         8
-165              0     595207  ...       0.01                         8
-166              0     595210  ...       0.01                         8
-167              0     595212  ...       0.01                         8
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0      CLOCK       0.01                         8
+1                0     595206          0                0  ...           0      CLOCK       0.01                         8
+2                0     595207          0                0  ...           0      CLOCK       0.01                         8
+3                0     595215          0                0  ...           0      CLOCK       0.01                         8
+4                0     595214          0                0  ...           0      CLOCK       0.01                         8
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0      CLOCK       0.01                         8
+164              0     595201          0                0  ...           0      CLOCK       0.01                         8
+165              0     595207          0                0  ...           0      CLOCK       0.01                         8
+166              0     595210          0                0  ...           0      CLOCK       0.01                         8
+167              0     595212          0                0  ...           0      CLOCK       0.01                         8
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         8
-1                0     595206  ...       0.01                         8
-2                0     595207  ...       0.01                         8
-3                0     595215  ...       0.01                         8
-4                0     595214  ...       0.01                         8
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         8
-164              0     595201  ...       0.01                         8
-165              0     595207  ...       0.01                         8
-166              0     595210  ...       0.01                         8
-167              0     595212  ...       0.01                         8
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0       FIFO       0.01                         8
+1                0     595206          0                0  ...           0       FIFO       0.01                         8
+2                0     595207          0                0  ...           0       FIFO       0.01                         8
+3                0     595215          0                0  ...           0       FIFO       0.01                         8
+4                0     595214          0                0  ...           0       FIFO       0.01                         8
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0       FIFO       0.01                         8
+164              0     595201          0                0  ...           0       FIFO       0.01                         8
+165              0     595207          0                0  ...           0       FIFO       0.01                         8
+166              0     595210          0                0  ...           0       FIFO       0.01                         8
+167              0     595212          0                0  ...           0       FIFO       0.01                         8
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         8
-1                0     595206  ...       0.01                         8
-2                0     595207  ...       0.01                         8
-3                0     595215  ...       0.01                         8
-4                0     595214  ...       0.01                         8
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         8
-164              0     595201  ...       0.01                         8
-165              0     595207  ...       0.01                         8
-166              0     595210  ...       0.01                         8
-167              0     595212  ...       0.01                         8
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0        LRU       0.01                         8
+1                0     595206          0                0  ...           0        LRU       0.01                         8
+2                0     595207          0                0  ...           0        LRU       0.01                         8
+3                0     595215          0                0  ...           0        LRU       0.01                         8
+4                0     595214          0                0  ...           0        LRU       0.01                         8
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0        LRU       0.01                         8
+164              0     595201          0                0  ...           0        LRU       0.01                         8
+165              0     595207          0                0  ...           0        LRU       0.01                         8
+166              0     595210          0                0  ...           0        LRU       0.01                         8
+167              0     595212          0                0  ...           0        LRU       0.01                         8
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                         8
-1                0     595206  ...       0.01                         8
-2                0     595207  ...       0.01                         8
-3                0     595215  ...       0.01                         8
-4                0     595214  ...       0.01                         8
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                         8
-164              0     595201  ...       0.01                         8
-165              0     595207  ...       0.01                         8
-166              0     595210  ...       0.01                         8
-167              0     595212  ...       0.01                         8
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0  ...  Offline CLOCK       0.01                         8
+1                0     595206          0  ...  Offline CLOCK       0.01                         8
+2                0     595207          0  ...  Offline CLOCK       0.01                         8
+3                0     595215          0  ...  Offline CLOCK       0.01                         8
+4                0     595214          0  ...  Offline CLOCK       0.01                         8
+..             ...        ...        ...  ...            ...        ...                       ...
+163              0     595213          0  ...  Offline CLOCK       0.01                         8
+164              0     595201          0  ...  Offline CLOCK       0.01                         8
+165              0     595207          0  ...  Offline CLOCK       0.01                         8
+166              0     595210          0  ...  Offline CLOCK       0.01                         8
+167              0     595212          0  ...  Offline CLOCK       0.01                         8
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1215,65 +1215,65 @@
 <h5 id="detail-table_4">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                         </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                         </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        16
-1                0     595206  ...       0.01                        16
-2                0     595207  ...       0.01                        16
-3                0     595215  ...       0.01                        16
-4                0     595214  ...       0.01                        16
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        16
-164              0     595201  ...       0.01                        16
-165              0     595207  ...       0.01                        16
-166              0     595210  ...       0.01                        16
-167              0     595212  ...       0.01                        16
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0      CLOCK       0.01                        16
+1                0     595206          0                0  ...           0      CLOCK       0.01                        16
+2                0     595207          0                0  ...           0      CLOCK       0.01                        16
+3                0     595215          0                0  ...           0      CLOCK       0.01                        16
+4                0     595214          0                0  ...           0      CLOCK       0.01                        16
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0      CLOCK       0.01                        16
+164              0     595201          0                0  ...           0      CLOCK       0.01                        16
+165              0     595207          0                0  ...           0      CLOCK       0.01                        16
+166              0     595210          0                0  ...           0      CLOCK       0.01                        16
+167              0     595212          0                0  ...           0      CLOCK       0.01                        16
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        16
-1                0     595206  ...       0.01                        16
-2                0     595207  ...       0.01                        16
-3                0     595215  ...       0.01                        16
-4                0     595214  ...       0.01                        16
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        16
-164              0     595201  ...       0.01                        16
-165              0     595207  ...       0.01                        16
-166              0     595210  ...       0.01                        16
-167              0     595212  ...       0.01                        16
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0       FIFO       0.01                        16
+1                0     595206          0                0  ...           0       FIFO       0.01                        16
+2                0     595207          0                0  ...           0       FIFO       0.01                        16
+3                0     595215          0                0  ...           0       FIFO       0.01                        16
+4                0     595214          0                0  ...           0       FIFO       0.01                        16
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0       FIFO       0.01                        16
+164              0     595201          0                0  ...           0       FIFO       0.01                        16
+165              0     595207          0                0  ...           0       FIFO       0.01                        16
+166              0     595210          0                0  ...           0       FIFO       0.01                        16
+167              0     595212          0                0  ...           0       FIFO       0.01                        16
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        16
-1                0     595206  ...       0.01                        16
-2                0     595207  ...       0.01                        16
-3                0     595215  ...       0.01                        16
-4                0     595214  ...       0.01                        16
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        16
-164              0     595201  ...       0.01                        16
-165              0     595207  ...       0.01                        16
-166              0     595210  ...       0.01                        16
-167              0     595212  ...       0.01                        16
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0        LRU       0.01                        16
+1                0     595206          0                0  ...           0        LRU       0.01                        16
+2                0     595207          0                0  ...           0        LRU       0.01                        16
+3                0     595215          0                0  ...           0        LRU       0.01                        16
+4                0     595214          0                0  ...           0        LRU       0.01                        16
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0        LRU       0.01                        16
+164              0     595201          0                0  ...           0        LRU       0.01                        16
+165              0     595207          0                0  ...           0        LRU       0.01                        16
+166              0     595210          0                0  ...           0        LRU       0.01                        16
+167              0     595212          0                0  ...           0        LRU       0.01                        16
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        16
-1                0     595206  ...       0.01                        16
-2                0     595207  ...       0.01                        16
-3                0     595215  ...       0.01                        16
-4                0     595214  ...       0.01                        16
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        16
-164              0     595201  ...       0.01                        16
-165              0     595207  ...       0.01                        16
-166              0     595210  ...       0.01                        16
-167              0     595212  ...       0.01                        16
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0  ...  Offline CLOCK       0.01                        16
+1                0     595206          0  ...  Offline CLOCK       0.01                        16
+2                0     595207          0  ...  Offline CLOCK       0.01                        16
+3                0     595215          0  ...  Offline CLOCK       0.01                        16
+4                0     595214          0  ...  Offline CLOCK       0.01                        16
+..             ...        ...        ...  ...            ...        ...                       ...
+163              0     595213          0  ...  Offline CLOCK       0.01                        16
+164              0     595201          0  ...  Offline CLOCK       0.01                        16
+165              0     595207          0  ...  Offline CLOCK       0.01                        16
+166              0     595210          0  ...  Offline CLOCK       0.01                        16
+167              0     595212          0  ...  Offline CLOCK       0.01                        16
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1305,65 +1305,65 @@
 <h5 id="detail-table_5">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                         </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                                         </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        32
-1                0     595206  ...       0.01                        32
-2                0     595207  ...       0.01                        32
-3                0     595215  ...       0.01                        32
-4                0     595214  ...       0.01                        32
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        32
-164              0     595201  ...       0.01                        32
-165              0     595207  ...       0.01                        32
-166              0     595210  ...       0.01                        32
-167              0     595212  ...       0.01                        32
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>CLOCK        </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0      CLOCK       0.01                        32
+1                0     595206          0                0  ...           0      CLOCK       0.01                        32
+2                0     595207          0                0  ...           0      CLOCK       0.01                        32
+3                0     595215          0                0  ...           0      CLOCK       0.01                        32
+4                0     595214          0                0  ...           0      CLOCK       0.01                        32
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0      CLOCK       0.01                        32
+164              0     595201          0                0  ...           0      CLOCK       0.01                        32
+165              0     595207          0                0  ...           0      CLOCK       0.01                        32
+166              0     595210          0                0  ...           0      CLOCK       0.01                        32
+167              0     595212          0                0  ...           0      CLOCK       0.01                        32
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        32
-1                0     595206  ...       0.01                        32
-2                0     595207  ...       0.01                        32
-3                0     595215  ...       0.01                        32
-4                0     595214  ...       0.01                        32
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        32
-164              0     595201  ...       0.01                        32
-165              0     595207  ...       0.01                        32
-166              0     595210  ...       0.01                        32
-167              0     595212  ...       0.01                        32
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>FIFO         </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,fifo,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0       FIFO       0.01                        32
+1                0     595206          0                0  ...           0       FIFO       0.01                        32
+2                0     595207          0                0  ...           0       FIFO       0.01                        32
+3                0     595215          0                0  ...           0       FIFO       0.01                        32
+4                0     595214          0                0  ...           0       FIFO       0.01                        32
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0       FIFO       0.01                        32
+164              0     595201          0                0  ...           0       FIFO       0.01                        32
+165              0     595207          0                0  ...           0       FIFO       0.01                        32
+166              0     595210          0                0  ...           0       FIFO       0.01                        32
+167              0     595212          0                0  ...           0       FIFO       0.01                        32
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        32
-1                0     595206  ...       0.01                        32
-2                0     595207  ...       0.01                        32
-3                0     595215  ...       0.01                        32
-4                0     595214  ...       0.01                        32
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        32
-164              0     595201  ...       0.01                        32
-165              0     595207  ...       0.01                        32
-166              0     595210  ...       0.01                        32
-167              0     595212  ...       0.01                        32
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>LRU          </td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">       99,994,970</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,lru,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0                0  ...           0        LRU       0.01                        32
+1                0     595206          0                0  ...           0        LRU       0.01                        32
+2                0     595207          0                0  ...           0        LRU       0.01                        32
+3                0     595215          0                0  ...           0        LRU       0.01                        32
+4                0     595214          0                0  ...           0        LRU       0.01                        32
+..             ...        ...        ...              ...  ...         ...        ...        ...                       ...
+163              0     595213          0                0  ...           0        LRU       0.01                        32
+164              0     595201          0                0  ...           0        LRU       0.01                        32
+165              0     595207          0                0  ...           0        LRU       0.01                        32
+166              0     595210          0                0  ...           0        LRU       0.01                        32
+167              0     595212          0                0  ...           0        LRU       0.01                        32
 
-[168 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0     595204  ...       0.01                        32
-1                0     595206  ...       0.01                        32
-2                0     595207  ...       0.01                        32
-3                0     595215  ...       0.01                        32
-4                0     595214  ...       0.01                        32
-..             ...        ...  ...        ...                       ...
-163              0     595213  ...       0.01                        32
-164              0     595201  ...       0.01                        32
-165              0     595207  ...       0.01                        32
-166              0     595210  ...       0.01                        32
-167              0     595212  ...       0.01                        32
+[168 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>Offline CLOCK</td><td style="text-align: right;">         0</td><td style="text-align: right;">           0</td><td style="text-align: right;">      0</td><td style="text-align: right;">              0</td><td style="text-align: right;">                0</td><td style="text-align: right;">           0</td><td style="text-align: right;">                0</td><td style="text-align: right;">      199,989,940</td><td style="text-align: right;">                 1</td><td style="text-align: right;">             0.99995</td><td style="text-align: right;">          0</td><td style="text-align: right;">        5,030</td><td style="text-align: right;">     99,994,970</td><td style="text-align: right;">      100,000,000</td><td>zipf0  </td><td>zipf0[0.005,ignore_obj_size,offline-clock,zipf,dram=lru,dram_size=0.01,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">          0.99995</td><td style="text-align: right;">     5,030</td><td style="text-align: right;">   100,000,000</td><td style="text-align: right;">       0.01</td><td style="text-align: right;">                1</td><td>byte_inserted  byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0     595204          0  ...  Offline CLOCK       0.01                        32
+1                0     595206          0  ...  Offline CLOCK       0.01                        32
+2                0     595207          0  ...  Offline CLOCK       0.01                        32
+3                0     595215          0  ...  Offline CLOCK       0.01                        32
+4                0     595214          0  ...  Offline CLOCK       0.01                        32
+..             ...        ...        ...  ...            ...        ...                       ...
+163              0     595213          0  ...  Offline CLOCK       0.01                        32
+164              0     595201          0  ...  Offline CLOCK       0.01                        32
+165              0     595207          0  ...  Offline CLOCK       0.01                        32
+166              0     595210          0  ...  Offline CLOCK       0.01                        32
+167              0     595212          0  ...  Offline CLOCK       0.01                        32
 
-[168 rows x 13 columns]</td></tr>
+[168 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 

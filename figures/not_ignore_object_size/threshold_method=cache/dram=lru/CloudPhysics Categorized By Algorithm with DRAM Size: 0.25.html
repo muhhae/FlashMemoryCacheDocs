@@ -903,65 +903,65 @@
 <h5 id="detail-table">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">   Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">      Write</th><th style="text-align: right;">    Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">       Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">   Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">      Write</th><th style="text-align: right;">    Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">       Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>CLOCK        </td><td style="text-align: right;">180,522,956</td><td style="text-align: right;">   1,535,748</td><td style="text-align: right;">182,058,704</td><td style="text-align: right;">  884,223,729,152</td><td style="text-align: right;">   17,237,311,488</td><td style="text-align: right;">  901,461,040,640</td><td style="text-align: right;">   26,255,108,096</td><td style="text-align: right;">  882,165,181,440</td><td style="text-align: right;">          0.989477</td><td style="text-align: right;">            0.836749</td><td style="text-align: right;">  1,920,395</td><td style="text-align: right;">   35,229,062</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         1
-1                0   109640192  ...       0.25                         1
-2                0        4096  ...       0.25                         1
-3        238426112   748108288  ...       0.25                         1
-4        820827648   800610816  ...       0.25                         1
-..             ...         ...  ...        ...                       ...
-144     2421211648  2410547200  ...       0.25                         1
-145     2531609600  2531682304  ...       0.25                         1
-146     4735291904  4732199424  ...       0.25                         1
-147     4085976064  4083726336  ...       0.25                         1
-148     3700802560  3698120704  ...       0.25                         1
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>CLOCK        </td><td style="text-align: right;">180,522,956</td><td style="text-align: right;">   1,535,748</td><td style="text-align: right;">182,058,704</td><td style="text-align: right;">  884,223,729,152</td><td style="text-align: right;">   17,237,311,488</td><td style="text-align: right;">  901,461,040,640</td><td style="text-align: right;">   26,255,108,096</td><td style="text-align: right;">  882,165,181,440</td><td style="text-align: right;">          0.989477</td><td style="text-align: right;">            0.836749</td><td style="text-align: right;">  1,920,395</td><td style="text-align: right;">   35,229,062</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                         1
+1                0   109640192          0                0  ...           0      CLOCK       0.25                         1
+2                0        4096          0                0  ...           0      CLOCK       0.25                         1
+3        238426112   748108288    3118592                0  ...   238426112      CLOCK       0.25                         1
+4        820827648   800610816   23608320                0  ...   820827648      CLOCK       0.25                         1
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144     2421211648  2410547200   30107136          9404928  ...  2430616576      CLOCK       0.25                         1
+145     2531609600  2531682304   39021056         26089472  ...  2557699072      CLOCK       0.25                         1
+146     4735291904  4732199424   19849728         36907520  ...  4772199424      CLOCK       0.25                         1
+147     4085976064  4083726336   13184000         10237440  ...  4096213504      CLOCK       0.25                         1
+148     3700802560  3698120704   13373440          9018368  ...  3709820928      CLOCK       0.25                         1
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>FIFO         </td><td style="text-align: right;">180,688,669</td><td style="text-align: right;">           0</td><td style="text-align: right;">180,688,669</td><td style="text-align: right;">  890,265,829,376</td><td style="text-align: right;">                0</td><td style="text-align: right;">  890,265,829,376</td><td style="text-align: right;">   23,607,544,832</td><td style="text-align: right;">  884,812,744,704</td><td style="text-align: right;">          0.98988 </td><td style="text-align: right;">            0.83709 </td><td style="text-align: right;">  1,846,761</td><td style="text-align: right;">   35,155,428</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         1
-1                0   109640192  ...       0.25                         1
-2                0        4096  ...       0.25                         1
-3        238426112   748108288  ...       0.25                         1
-4        820827648   800610816  ...       0.25                         1
-..             ...         ...  ...        ...                       ...
-144     2422694400  2412902400  ...       0.25                         1
-145     2535552512  2534150656  ...       0.25                         1
-146     4739239424  4736131584  ...       0.25                         1
-147     4087465984  4084770816  ...       0.25                         1
-148     3701825024  3698821120  ...       0.25                         1
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>FIFO         </td><td style="text-align: right;">180,688,669</td><td style="text-align: right;">           0</td><td style="text-align: right;">180,688,669</td><td style="text-align: right;">  890,265,829,376</td><td style="text-align: right;">                0</td><td style="text-align: right;">  890,265,829,376</td><td style="text-align: right;">   23,607,544,832</td><td style="text-align: right;">  884,812,744,704</td><td style="text-align: right;">          0.98988 </td><td style="text-align: right;">            0.83709 </td><td style="text-align: right;">  1,846,761</td><td style="text-align: right;">   35,155,428</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                         1
+1                0   109640192          0                0  ...           0       FIFO       0.25                         1
+2                0        4096          0                0  ...           0       FIFO       0.25                         1
+3        238426112   748108288    3118592                0  ...   238426112       FIFO       0.25                         1
+4        820827648   800610816   23608320                0  ...   820827648       FIFO       0.25                         1
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144     2422694400  2412902400   27751936                0  ...  2422694400       FIFO       0.25                         1
+145     2535552512  2534150656   36552704                0  ...  2535552512       FIFO       0.25                         1
+146     4739239424  4736131584   15917568                0  ...  4739239424       FIFO       0.25                         1
+147     4087465984  4084770816   12139520                0  ...  4087465984       FIFO       0.25                         1
+148     3701825024  3698821120   12673024                0  ...  3701825024       FIFO       0.25                         1
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>LRU          </td><td style="text-align: right;">180,551,735</td><td style="text-align: right;">   1,715,553</td><td style="text-align: right;">182,267,288</td><td style="text-align: right;">  885,539,501,056</td><td style="text-align: right;">   22,023,350,272</td><td style="text-align: right;">  907,562,851,328</td><td style="text-align: right;">   25,940,011,520</td><td style="text-align: right;">  882,480,278,016</td><td style="text-align: right;">          0.98953 </td><td style="text-align: right;">            0.836794</td><td style="text-align: right;">  1,910,637</td><td style="text-align: right;">   35,219,304</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         1
-1                0   109640192  ...       0.25                         1
-2                0        4096  ...       0.25                         1
-3        238426112   748108288  ...       0.25                         1
-4        820827648   800610816  ...       0.25                         1
-..             ...         ...  ...        ...                       ...
-144     2421850624  2410944512  ...       0.25                         1
-145     2532391936  2531538944  ...       0.25                         1
-146     4737805312  4733885440  ...       0.25                         1
-147     4086581248  4084066304  ...       0.25                         1
-148     3701362176  3698264064  ...       0.25                         1
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>LRU          </td><td style="text-align: right;">180,551,735</td><td style="text-align: right;">   1,715,553</td><td style="text-align: right;">182,267,288</td><td style="text-align: right;">  885,539,501,056</td><td style="text-align: right;">   22,023,350,272</td><td style="text-align: right;">  907,562,851,328</td><td style="text-align: right;">   25,940,011,520</td><td style="text-align: right;">  882,480,278,016</td><td style="text-align: right;">          0.98953 </td><td style="text-align: right;">            0.836794</td><td style="text-align: right;">  1,910,637</td><td style="text-align: right;">   35,219,304</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                         1
+1                0   109640192          0                0  ...           0        LRU       0.25                         1
+2                0        4096          0                0  ...           0        LRU       0.25                         1
+3        238426112   748108288    3118592                0  ...   238426112        LRU       0.25                         1
+4        820827648   800610816   23608320          3122688  ...   823950336        LRU       0.25                         1
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144     2421850624  2410944512   29709824         18802688  ...  2440653312        LRU       0.25                         1
+145     2532391936  2531538944   39164416         38348800  ...  2570740736        LRU       0.25                         1
+146     4737805312  4733885440   18163712         14206976  ...  4752012288        LRU       0.25                         1
+147     4086581248  4084066304   12844032         10330112  ...  4096911360        LRU       0.25                         1
+148     3701362176  3698264064   13230080         10130432  ...  3711492608        LRU       0.25                         1
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>Offline CLOCK</td><td style="text-align: right;">180,588,108</td><td style="text-align: right;">     122,748</td><td style="text-align: right;">180,710,856</td><td style="text-align: right;">1,769,022,902,784</td><td style="text-align: right;">   24,225,249,792</td><td style="text-align: right;">1,793,248,152,576</td><td style="text-align: right;">   52,279,931,392</td><td style="text-align: right;">1,764,560,647,680</td><td style="text-align: right;">          0.989465</td><td style="text-align: right;">            0.836739</td><td style="text-align: right;">  1,922,480</td><td style="text-align: right;">   35,231,147</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         1
-1                0   109640192  ...       0.25                         1
-2                0        4096  ...       0.25                         1
-3        238426112   748108288  ...       0.25                         1
-4        820827648   800610816  ...       0.25                         1
-..             ...         ...  ...        ...                       ...
-144     2421461504  2410907648  ...       0.25                         1
-145     2532150272  2531723264  ...       0.25                         1
-146     4735439360  4732383744  ...       0.25                         1
-147     4085980160  4083783680  ...       0.25                         1
-148     3700806656  3698325504  ...       0.25                         1
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         1</td><td>Offline CLOCK</td><td style="text-align: right;">180,588,108</td><td style="text-align: right;">     122,748</td><td style="text-align: right;">180,710,856</td><td style="text-align: right;">1,769,022,902,784</td><td style="text-align: right;">   24,225,249,792</td><td style="text-align: right;">1,793,248,152,576</td><td style="text-align: right;">   52,279,931,392</td><td style="text-align: right;">1,764,560,647,680</td><td style="text-align: right;">          0.989465</td><td style="text-align: right;">            0.836739</td><td style="text-align: right;">  1,922,480</td><td style="text-align: right;">   35,231,147</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=1,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                         1
+1                0   109640192          0  ...  Offline CLOCK       0.25                         1
+2                0        4096          0  ...  Offline CLOCK       0.25                         1
+3        238426112   748108288    3118592  ...  Offline CLOCK       0.25                         1
+4        820827648   800610816   23608320  ...  Offline CLOCK       0.25                         1
+..             ...         ...        ...  ...            ...        ...                       ...
+144     2421461504  2410907648   29746688  ...  Offline CLOCK       0.25                         1
+145     2532150272  2531723264   38980096  ...  Offline CLOCK       0.25                         1
+146     4735439360  4732383744   19665408  ...  Offline CLOCK       0.25                         1
+147     4085980160  4083783680   13126656  ...  Offline CLOCK       0.25                         1
+148     3700806656  3698325504   13168640  ...  Offline CLOCK       0.25                         1
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -993,65 +993,65 @@
 <h5 id="detail-table_1">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">     Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">     Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">     Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">     Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>CLOCK        </td><td style="text-align: right;">12,922,064</td><td style="text-align: right;">     670,554</td><td style="text-align: right;">13,592,618</td><td style="text-align: right;"> 58,229,238,784</td><td style="text-align: right;">    3,710,012,928</td><td style="text-align: right;"> 61,939,251,712</td><td style="text-align: right;">   23,308,171,264</td><td style="text-align: right;">  885,112,118,272</td><td style="text-align: right;">          0.990978</td><td style="text-align: right;">            0.838018</td><td style="text-align: right;">  1,646,425</td><td style="text-align: right;">   34,955,092</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         2
-1                0   109640192  ...       0.25                         2
-2                0        4096  ...       0.25                         2
-3         42754048   751220224  ...       0.25                         2
-4         68636672   819386368  ...       0.25                         2
-..             ...         ...  ...        ...                       ...
-144      530673664  2418604544  ...       0.25                         2
-145      440355328  2554271232  ...       0.25                         2
-146      155149312  4740735488  ...       0.25                         2
-147      237954048  4087830528  ...       0.25                         2
-148      159093248  3696162816  ...       0.25                         2
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>CLOCK        </td><td style="text-align: right;">12,922,064</td><td style="text-align: right;">     670,554</td><td style="text-align: right;">13,592,618</td><td style="text-align: right;"> 58,229,238,784</td><td style="text-align: right;">    3,710,012,928</td><td style="text-align: right;"> 61,939,251,712</td><td style="text-align: right;">   23,308,171,264</td><td style="text-align: right;">  885,112,118,272</td><td style="text-align: right;">          0.990978</td><td style="text-align: right;">            0.838018</td><td style="text-align: right;">  1,646,425</td><td style="text-align: right;">   34,955,092</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                         2
+1                0   109640192          0                0  ...           0      CLOCK       0.25                         2
+2                0        4096          0                0  ...           0      CLOCK       0.25                         2
+3         42754048   751220224       6656                0  ...    42754048      CLOCK       0.25                         2
+4         68636672   819386368    4832768                0  ...    68636672      CLOCK       0.25                         2
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      530673664  2418604544   22049792          4936704  ...   535610368      CLOCK       0.25                         2
+145      440355328  2554271232   16432128          6222848  ...   446578176      CLOCK       0.25                         2
+146      155149312  4740735488   11313664           434176  ...   155583488      CLOCK       0.25                         2
+147      237954048  4087830528    9079808          8664576  ...   246618624      CLOCK       0.25                         2
+148      159093248  3696162816   15331328           743424  ...   159836672      CLOCK       0.25                         2
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>FIFO         </td><td style="text-align: right;">12,924,696</td><td style="text-align: right;">           0</td><td style="text-align: right;">12,924,696</td><td style="text-align: right;"> 58,565,890,048</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 58,565,890,048</td><td style="text-align: right;">   21,999,630,336</td><td style="text-align: right;">  886,420,659,200</td><td style="text-align: right;">          0.991031</td><td style="text-align: right;">            0.838063</td><td style="text-align: right;">  1,636,759</td><td style="text-align: right;">   34,945,426</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         2
-1                0   109640192  ...       0.25                         2
-2                0        4096  ...       0.25                         2
-3         42754048   751220224  ...       0.25                         2
-4         68636672   819386368  ...       0.25                         2
-..             ...         ...  ...        ...                       ...
-144      530862080  2428015616  ...       0.25                         2
-145      440740352  2561067008  ...       0.25                         2
-146      155165696  4740993536  ...       0.25                         2
-147      237954048  4087904256  ...       0.25                         2
-148      159095808  3696517632  ...       0.25                         2
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>FIFO         </td><td style="text-align: right;">12,924,696</td><td style="text-align: right;">           0</td><td style="text-align: right;">12,924,696</td><td style="text-align: right;"> 58,565,890,048</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 58,565,890,048</td><td style="text-align: right;">   21,999,630,336</td><td style="text-align: right;">  886,420,659,200</td><td style="text-align: right;">          0.991031</td><td style="text-align: right;">            0.838063</td><td style="text-align: right;">  1,636,759</td><td style="text-align: right;">   34,945,426</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                         2
+1                0   109640192          0                0  ...           0       FIFO       0.25                         2
+2                0        4096          0                0  ...           0       FIFO       0.25                         2
+3         42754048   751220224       6656                0  ...    42754048       FIFO       0.25                         2
+4         68636672   819386368    4832768                0  ...    68636672       FIFO       0.25                         2
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      530862080  2428015616   12638720                0  ...   530862080       FIFO       0.25                         2
+145      440740352  2561067008    9636352                0  ...   440740352       FIFO       0.25                         2
+146      155165696  4740993536   11055616                0  ...   155165696       FIFO       0.25                         2
+147      237954048  4087904256    9006080                0  ...   237954048       FIFO       0.25                         2
+148      159095808  3696517632   14976512                0  ...   159095808       FIFO       0.25                         2
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>LRU          </td><td style="text-align: right;">12,922,135</td><td style="text-align: right;">     721,656</td><td style="text-align: right;">13,643,791</td><td style="text-align: right;"> 58,238,402,560</td><td style="text-align: right;">    8,138,186,752</td><td style="text-align: right;"> 66,376,589,312</td><td style="text-align: right;">   23,173,931,520</td><td style="text-align: right;">  885,246,358,016</td><td style="text-align: right;">          0.990982</td><td style="text-align: right;">            0.838022</td><td style="text-align: right;">  1,645,589</td><td style="text-align: right;">   34,954,256</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         2
-1                0   109640192  ...       0.25                         2
-2                0        4096  ...       0.25                         2
-3         42754048   751220224  ...       0.25                         2
-4         68636672   819386368  ...       0.25                         2
-..             ...         ...  ...        ...                       ...
-144      530677760  2427622400  ...       0.25                         2
-145      440740352  2560391168  ...       0.25                         2
-146      155165696  4740964864  ...       0.25                         2
-147      237954048  4087859200  ...       0.25                         2
-148      159093248  3696408576  ...       0.25                         2
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>LRU          </td><td style="text-align: right;">12,922,135</td><td style="text-align: right;">     721,656</td><td style="text-align: right;">13,643,791</td><td style="text-align: right;"> 58,238,402,560</td><td style="text-align: right;">    8,138,186,752</td><td style="text-align: right;"> 66,376,589,312</td><td style="text-align: right;">   23,173,931,520</td><td style="text-align: right;">  885,246,358,016</td><td style="text-align: right;">          0.990982</td><td style="text-align: right;">            0.838022</td><td style="text-align: right;">  1,645,589</td><td style="text-align: right;">   34,954,256</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                         2
+1                0   109640192          0                0  ...           0        LRU       0.25                         2
+2                0        4096          0                0  ...           0        LRU       0.25                         2
+3         42754048   751220224       6656                0  ...    42754048        LRU       0.25                         2
+4         68636672   819386368    4832768                0  ...    68636672        LRU       0.25                         2
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      530677760  2427622400   13031936          1886720  ...   532564480        LRU       0.25                         2
+145      440740352  2560391168   10312192          1608704  ...   442349056        LRU       0.25                         2
+146      155165696  4740964864   11084288           639488  ...   155805184        LRU       0.25                         2
+147      237954048  4087859200    9051136           551936  ...   238505984        LRU       0.25                         2
+148      159093248  3696408576   15085568          1564160  ...   160657408        LRU       0.25                         2
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>Offline CLOCK</td><td style="text-align: right;">12,921,807</td><td style="text-align: right;">       8,443</td><td style="text-align: right;">12,930,250</td><td style="text-align: right;">116,454,301,184</td><td style="text-align: right;">    4,152,211,456</td><td style="text-align: right;">120,606,512,640</td><td style="text-align: right;">   46,448,752,640</td><td style="text-align: right;">1,770,391,826,432</td><td style="text-align: right;">          0.990992</td><td style="text-align: right;">            0.83803 </td><td style="text-align: right;">  1,643,789</td><td style="text-align: right;">   34,952,456</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         2
-1                0   109640192  ...       0.25                         2
-2                0        4096  ...       0.25                         2
-3         42754048   751220224  ...       0.25                         2
-4         68636672   819386368  ...       0.25                         2
-..             ...         ...  ...        ...                       ...
-144      530673664  2427114496  ...       0.25                         2
-145      440355328  2559531008  ...       0.25                         2
-146      155149312  4740633088  ...       0.25                         2
-147      237954048  4087732224  ...       0.25                         2
-148      159093248  3696162816  ...       0.25                         2
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         2</td><td>Offline CLOCK</td><td style="text-align: right;">12,921,807</td><td style="text-align: right;">       8,443</td><td style="text-align: right;">12,930,250</td><td style="text-align: right;">116,454,301,184</td><td style="text-align: right;">    4,152,211,456</td><td style="text-align: right;">120,606,512,640</td><td style="text-align: right;">   46,448,752,640</td><td style="text-align: right;">1,770,391,826,432</td><td style="text-align: right;">          0.990992</td><td style="text-align: right;">            0.83803 </td><td style="text-align: right;">  1,643,789</td><td style="text-align: right;">   34,952,456</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=2,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                         2
+1                0   109640192          0  ...  Offline CLOCK       0.25                         2
+2                0        4096          0  ...  Offline CLOCK       0.25                         2
+3         42754048   751220224       6656  ...  Offline CLOCK       0.25                         2
+4         68636672   819386368    4832768  ...  Offline CLOCK       0.25                         2
+..             ...         ...        ...  ...            ...        ...                       ...
+144      530673664  2427114496   13539840  ...  Offline CLOCK       0.25                         2
+145      440355328  2559531008   11172352  ...  Offline CLOCK       0.25                         2
+146      155149312  4740633088   11416064  ...  Offline CLOCK       0.25                         2
+147      237954048  4087732224    9178112  ...  Offline CLOCK       0.25                         2
+148      159093248  3696162816   15331328  ...  Offline CLOCK       0.25                         2
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1083,65 +1083,65 @@
 <h5 id="detail-table_2">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">    Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">    Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">    Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">    Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>CLOCK        </td><td style="text-align: right;"> 2,670,775</td><td style="text-align: right;">      59,318</td><td style="text-align: right;">2,730,093</td><td style="text-align: right;"> 13,722,214,400</td><td style="text-align: right;">      588,203,008</td><td style="text-align: right;">14,310,417,408</td><td style="text-align: right;">   17,902,887,424</td><td style="text-align: right;">  890,517,402,112</td><td style="text-align: right;">          0.997813</td><td style="text-align: right;">            0.843798</td><td style="text-align: right;">    399,127</td><td style="text-align: right;">   33,707,794</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         4
-1                0   109640192  ...       0.25                         4
-2                0        4096  ...       0.25                         4
-3         13423104   751226880  ...       0.25                         4
-4         14487040   821341696  ...       0.25                         4
-..             ...         ...  ...        ...                       ...
-144      196028416  2422340608  ...       0.25                         4
-145      117393920  2555382272  ...       0.25                         4
-146       74637824  4751929856  ...       0.25                         4
-147       85753856  4096677888  ...       0.25                         4
-148       81587712  3709347840  ...       0.25                         4
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>CLOCK        </td><td style="text-align: right;"> 2,670,775</td><td style="text-align: right;">      59,318</td><td style="text-align: right;">2,730,093</td><td style="text-align: right;"> 13,722,214,400</td><td style="text-align: right;">      588,203,008</td><td style="text-align: right;">14,310,417,408</td><td style="text-align: right;">   17,902,887,424</td><td style="text-align: right;">  890,517,402,112</td><td style="text-align: right;">          0.997813</td><td style="text-align: right;">            0.843798</td><td style="text-align: right;">    399,127</td><td style="text-align: right;">   33,707,794</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                         4
+1                0   109640192          0                0  ...           0      CLOCK       0.25                         4
+2                0        4096          0                0  ...           0      CLOCK       0.25                         4
+3         13423104   751226880          0                0  ...    13423104      CLOCK       0.25                         4
+4         14487040   821341696    2877440                0  ...    14487040      CLOCK       0.25                         4
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      196028416  2422340608   18313728          2271744  ...   198300160      CLOCK       0.25                         4
+145      117393920  2555382272   15321088         64952832  ...   182346752      CLOCK       0.25                         4
+146       74637824  4751929856     119296          7161856  ...    81799680      CLOCK       0.25                         4
+147       85753856  4096677888     232448         14499840  ...   100253696      CLOCK       0.25                         4
+148       81587712  3709347840    2146304         11788288  ...    93376000      CLOCK       0.25                         4
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>FIFO         </td><td style="text-align: right;"> 2,672,430</td><td style="text-align: right;">           0</td><td style="text-align: right;">2,672,430</td><td style="text-align: right;"> 13,898,139,136</td><td style="text-align: right;">                0</td><td style="text-align: right;">13,898,139,136</td><td style="text-align: right;">   17,688,245,248</td><td style="text-align: right;">  890,732,044,288</td><td style="text-align: right;">          0.997827</td><td style="text-align: right;">            0.84381 </td><td style="text-align: right;">    396,581</td><td style="text-align: right;">   33,705,248</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         4
-1                0   109640192  ...       0.25                         4
-2                0        4096  ...       0.25                         4
-3         13423104   751226880  ...       0.25                         4
-4         14487040   821341696  ...       0.25                         4
-..             ...         ...  ...        ...                       ...
-144      196028416  2422352896  ...       0.25                         4
-145      117398016  2555386368  ...       0.25                         4
-146       74637824  4751933952  ...       0.25                         4
-147       85753856  4096677888  ...       0.25                         4
-148       81595904  3709315072  ...       0.25                         4
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>FIFO         </td><td style="text-align: right;"> 2,672,430</td><td style="text-align: right;">           0</td><td style="text-align: right;">2,672,430</td><td style="text-align: right;"> 13,898,139,136</td><td style="text-align: right;">                0</td><td style="text-align: right;">13,898,139,136</td><td style="text-align: right;">   17,688,245,248</td><td style="text-align: right;">  890,732,044,288</td><td style="text-align: right;">          0.997827</td><td style="text-align: right;">            0.84381 </td><td style="text-align: right;">    396,581</td><td style="text-align: right;">   33,705,248</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                         4
+1                0   109640192          0                0  ...           0       FIFO       0.25                         4
+2                0        4096          0                0  ...           0       FIFO       0.25                         4
+3         13423104   751226880          0                0  ...    13423104       FIFO       0.25                         4
+4         14487040   821341696    2877440                0  ...    14487040       FIFO       0.25                         4
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      196028416  2422352896   18301440                0  ...   196028416       FIFO       0.25                         4
+145      117398016  2555386368   15316992                0  ...   117398016       FIFO       0.25                         4
+146       74637824  4751933952     115200                0  ...    74637824       FIFO       0.25                         4
+147       85753856  4096677888     232448                0  ...    85753856       FIFO       0.25                         4
+148       81595904  3709315072    2179072                0  ...    81595904       FIFO       0.25                         4
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>LRU          </td><td style="text-align: right;"> 2,671,853</td><td style="text-align: right;">      81,123</td><td style="text-align: right;">2,752,976</td><td style="text-align: right;"> 13,739,151,872</td><td style="text-align: right;">    2,948,183,040</td><td style="text-align: right;">16,687,334,912</td><td style="text-align: right;">   17,895,347,200</td><td style="text-align: right;">  890,524,942,336</td><td style="text-align: right;">          0.997812</td><td style="text-align: right;">            0.843797</td><td style="text-align: right;">    399,277</td><td style="text-align: right;">   33,707,944</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         4
-1                0   109640192  ...       0.25                         4
-2                0        4096  ...       0.25                         4
-3         13423104   751226880  ...       0.25                         4
-4         14487040   821341696  ...       0.25                         4
-..             ...         ...  ...        ...                       ...
-144      196028416  2422344704  ...       0.25                         4
-145      117398016  2555386368  ...       0.25                         4
-146       74637824  4751929856  ...       0.25                         4
-147       85753856  4096677888  ...       0.25                         4
-148       81587712  3709294592  ...       0.25                         4
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>LRU          </td><td style="text-align: right;"> 2,671,853</td><td style="text-align: right;">      81,123</td><td style="text-align: right;">2,752,976</td><td style="text-align: right;"> 13,739,151,872</td><td style="text-align: right;">    2,948,183,040</td><td style="text-align: right;">16,687,334,912</td><td style="text-align: right;">   17,895,347,200</td><td style="text-align: right;">  890,524,942,336</td><td style="text-align: right;">          0.997812</td><td style="text-align: right;">            0.843797</td><td style="text-align: right;">    399,277</td><td style="text-align: right;">   33,707,944</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                         4
+1                0   109640192          0                0  ...           0        LRU       0.25                         4
+2                0        4096          0                0  ...           0        LRU       0.25                         4
+3         13423104   751226880          0                0  ...    13423104        LRU       0.25                         4
+4         14487040   821341696    2877440                0  ...    14487040        LRU       0.25                         4
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144      196028416  2422344704   18309632            43520  ...   196071936        LRU       0.25                         4
+145      117398016  2555386368   15316992           162816  ...   117560832        LRU       0.25                         4
+146       74637824  4751929856     119296            11776  ...    74649600        LRU       0.25                         4
+147       85753856  4096677888     232448            11264  ...    85765120        LRU       0.25                         4
+148       81587712  3709294592    2199552            39424  ...    81627136        LRU       0.25                         4
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>Offline CLOCK</td><td style="text-align: right;"> 2,670,235</td><td style="text-align: right;">      21,930</td><td style="text-align: right;">2,692,165</td><td style="text-align: right;"> 27,441,327,104</td><td style="text-align: right;">      925,076,480</td><td style="text-align: right;">28,366,403,584</td><td style="text-align: right;">   35,799,376,384</td><td style="text-align: right;">1,781,041,202,688</td><td style="text-align: right;">          0.997814</td><td style="text-align: right;">            0.843799</td><td style="text-align: right;">    398,902</td><td style="text-align: right;">   33,707,569</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         4
-1                0   109640192  ...       0.25                         4
-2                0        4096  ...       0.25                         4
-3         13423104   751226880  ...       0.25                         4
-4         14487040   821341696  ...       0.25                         4
-..             ...         ...  ...        ...                       ...
-144      196028416  2422340608  ...       0.25                         4
-145      117393920  2555382272  ...       0.25                         4
-146       74637824  4751929856  ...       0.25                         4
-147       85753856  4096677888  ...       0.25                         4
-148       81587712  3709327360  ...       0.25                         4
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         4</td><td>Offline CLOCK</td><td style="text-align: right;"> 2,670,235</td><td style="text-align: right;">      21,930</td><td style="text-align: right;">2,692,165</td><td style="text-align: right;"> 27,441,327,104</td><td style="text-align: right;">      925,076,480</td><td style="text-align: right;">28,366,403,584</td><td style="text-align: right;">   35,799,376,384</td><td style="text-align: right;">1,781,041,202,688</td><td style="text-align: right;">          0.997814</td><td style="text-align: right;">            0.843799</td><td style="text-align: right;">    398,902</td><td style="text-align: right;">   33,707,569</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=4,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                         4
+1                0   109640192          0  ...  Offline CLOCK       0.25                         4
+2                0        4096          0  ...  Offline CLOCK       0.25                         4
+3         13423104   751226880          0  ...  Offline CLOCK       0.25                         4
+4         14487040   821341696    2877440  ...  Offline CLOCK       0.25                         4
+..             ...         ...        ...  ...            ...        ...                       ...
+144      196028416  2422340608   18313728  ...  Offline CLOCK       0.25                         4
+145      117393920  2555382272   15321088  ...  Offline CLOCK       0.25                         4
+146       74637824  4751929856     119296  ...  Offline CLOCK       0.25                         4
+147       85753856  4096677888     232448  ...  Offline CLOCK       0.25                         4
+148       81587712  3709327360    2166784  ...  Offline CLOCK       0.25                         4
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1173,65 +1173,65 @@
 <h5 id="detail-table_3">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">   Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">   Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                              </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>CLOCK        </td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      10,621</td><td style="text-align: right;">906,119</td><td style="text-align: right;">  4,765,934,592</td><td style="text-align: right;">      126,033,920</td><td style="text-align: right;">4,891,968,512</td><td style="text-align: right;">   16,686,708,736</td><td style="text-align: right;">  891,733,580,800</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,774</td><td style="text-align: right;">   33,470,441</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         8
-1                0   109640192  ...       0.25                         8
-2                0        4096  ...       0.25                         8
-3          2061312   751226880  ...       0.25                         8
-4          2685440   822838784  ...       0.25                         8
-..             ...         ...  ...        ...                       ...
-144       71954432  2432672768  ...       0.25                         8
-145       49770496  2564531712  ...       0.25                         8
-146        2256896  4752003584  ...       0.25                         8
-147         618496  4096886784  ...       0.25                         8
-148         839680  3710375936  ...       0.25                         8
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>CLOCK        </td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      10,621</td><td style="text-align: right;">906,119</td><td style="text-align: right;">  4,765,934,592</td><td style="text-align: right;">      126,033,920</td><td style="text-align: right;">4,891,968,512</td><td style="text-align: right;">   16,686,708,736</td><td style="text-align: right;">  891,733,580,800</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,774</td><td style="text-align: right;">   33,470,441</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                         8
+1                0   109640192          0                0  ...           0      CLOCK       0.25                         8
+2                0        4096          0                0  ...           0      CLOCK       0.25                         8
+3          2061312   751226880          0                0  ...     2061312      CLOCK       0.25                         8
+4          2685440   822838784    1380352                0  ...     2685440      CLOCK       0.25                         8
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144       71954432  2432672768    7981568                0  ...    71954432      CLOCK       0.25                         8
+145       49770496  2564531712    6171648            36864  ...    49807360      CLOCK       0.25                         8
+146        2256896  4752003584      45568                0  ...     2256896      CLOCK       0.25                         8
+147         618496  4096886784      23552                0  ...      618496      CLOCK       0.25                         8
+148         839680  3710375936    1118208                0  ...      839680      CLOCK       0.25                         8
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>FIFO         </td><td style="text-align: right;">   895,648</td><td style="text-align: right;">           0</td><td style="text-align: right;">895,648</td><td style="text-align: right;">  4,797,503,488</td><td style="text-align: right;">                0</td><td style="text-align: right;">4,797,503,488</td><td style="text-align: right;">   16,686,345,216</td><td style="text-align: right;">  891,733,944,320</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844899</td><td style="text-align: right;">    161,649</td><td style="text-align: right;">   33,470,316</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         8
-1                0   109640192  ...       0.25                         8
-2                0        4096  ...       0.25                         8
-3          2061312   751226880  ...       0.25                         8
-4          2685440   822838784  ...       0.25                         8
-..             ...         ...  ...        ...                       ...
-144       71954432  2432695296  ...       0.25                         8
-145       49770496  2564546048  ...       0.25                         8
-146        2256896  4752017920  ...       0.25                         8
-147         618496  4096901120  ...       0.25                         8
-148         843776  3710390272  ...       0.25                         8
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>FIFO         </td><td style="text-align: right;">   895,648</td><td style="text-align: right;">           0</td><td style="text-align: right;">895,648</td><td style="text-align: right;">  4,797,503,488</td><td style="text-align: right;">                0</td><td style="text-align: right;">4,797,503,488</td><td style="text-align: right;">   16,686,345,216</td><td style="text-align: right;">  891,733,944,320</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844899</td><td style="text-align: right;">    161,649</td><td style="text-align: right;">   33,470,316</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                         8
+1                0   109640192          0                0  ...           0       FIFO       0.25                         8
+2                0        4096          0                0  ...           0       FIFO       0.25                         8
+3          2061312   751226880          0                0  ...     2061312       FIFO       0.25                         8
+4          2685440   822838784    1380352                0  ...     2685440       FIFO       0.25                         8
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144       71954432  2432695296    7959040                0  ...    71954432       FIFO       0.25                         8
+145       49770496  2564546048    6157312                0  ...    49770496       FIFO       0.25                         8
+146        2256896  4752017920      31232                0  ...     2256896       FIFO       0.25                         8
+147         618496  4096901120       9216                0  ...      618496       FIFO       0.25                         8
+148         843776  3710390272    1103872                0  ...      843776       FIFO       0.25                         8
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>LRU          </td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      28,112</td><td style="text-align: right;">923,610</td><td style="text-align: right;">  4,765,934,592</td><td style="text-align: right;">    1,720,107,008</td><td style="text-align: right;">6,486,041,600</td><td style="text-align: right;">   16,686,524,416</td><td style="text-align: right;">  891,733,765,120</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,696</td><td style="text-align: right;">   33,470,363</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         8
-1                0   109640192  ...       0.25                         8
-2                0        4096  ...       0.25                         8
-3          2061312   751226880  ...       0.25                         8
-4          2685440   822838784  ...       0.25                         8
-..             ...         ...  ...        ...                       ...
-144       71954432  2432691200  ...       0.25                         8
-145       49770496  2564541952  ...       0.25                         8
-146        2256896  4752017920  ...       0.25                         8
-147         618496  4096901120  ...       0.25                         8
-148         839680  3710382080  ...       0.25                         8
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>LRU          </td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      28,112</td><td style="text-align: right;">923,610</td><td style="text-align: right;">  4,765,934,592</td><td style="text-align: right;">    1,720,107,008</td><td style="text-align: right;">6,486,041,600</td><td style="text-align: right;">   16,686,524,416</td><td style="text-align: right;">  891,733,765,120</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,696</td><td style="text-align: right;">   33,470,363</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                         8
+1                0   109640192          0                0  ...           0        LRU       0.25                         8
+2                0        4096          0                0  ...           0        LRU       0.25                         8
+3          2061312   751226880          0                0  ...     2061312        LRU       0.25                         8
+4          2685440   822838784    1380352                0  ...     2685440        LRU       0.25                         8
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144       71954432  2432691200    7963136             4608  ...    71959040        LRU       0.25                         8
+145       49770496  2564541952    6161408            17408  ...    49787904        LRU       0.25                         8
+146        2256896  4752017920      31232             9216  ...     2266112        LRU       0.25                         8
+147         618496  4096901120       9216             1024  ...      619520        LRU       0.25                         8
+148         839680  3710382080    1112064            16896  ...      856576        LRU       0.25                         8
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>Offline CLOCK</td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      10,621</td><td style="text-align: right;">906,119</td><td style="text-align: right;">  9,531,869,184</td><td style="text-align: right;">      252,067,840</td><td style="text-align: right;">9,783,937,024</td><td style="text-align: right;">   33,373,417,472</td><td style="text-align: right;">1,783,467,161,600</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,774</td><td style="text-align: right;">   33,470,441</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                         8
-1                0   109640192  ...       0.25                         8
-2                0        4096  ...       0.25                         8
-3          2061312   751226880  ...       0.25                         8
-4          2685440   822838784  ...       0.25                         8
-..             ...         ...  ...        ...                       ...
-144       71954432  2432672768  ...       0.25                         8
-145       49770496  2564531712  ...       0.25                         8
-146        2256896  4752003584  ...       0.25                         8
-147         618496  4096886784  ...       0.25                         8
-148         839680  3710375936  ...       0.25                         8
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                         8</td><td>Offline CLOCK</td><td style="text-align: right;">   895,498</td><td style="text-align: right;">      10,621</td><td style="text-align: right;">906,119</td><td style="text-align: right;">  9,531,869,184</td><td style="text-align: right;">      252,067,840</td><td style="text-align: right;">9,783,937,024</td><td style="text-align: right;">   33,373,417,472</td><td style="text-align: right;">1,783,467,161,600</td><td style="text-align: right;">          0.999114</td><td style="text-align: right;">            0.844898</td><td style="text-align: right;">    161,774</td><td style="text-align: right;">   33,470,441</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=8,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                         8
+1                0   109640192          0  ...  Offline CLOCK       0.25                         8
+2                0        4096          0  ...  Offline CLOCK       0.25                         8
+3          2061312   751226880          0  ...  Offline CLOCK       0.25                         8
+4          2685440   822838784    1380352  ...  Offline CLOCK       0.25                         8
+..             ...         ...        ...  ...            ...        ...                       ...
+144       71954432  2432672768    7981568  ...  Offline CLOCK       0.25                         8
+145       49770496  2564531712    6171648  ...  Offline CLOCK       0.25                         8
+146        2256896  4752003584      45568  ...  Offline CLOCK       0.25                         8
+147         618496  4096886784      23552  ...  Offline CLOCK       0.25                         8
+148         839680  3710375936    1118208  ...  Offline CLOCK       0.25                         8
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1263,65 +1263,65 @@
 <h5 id="detail-table_4">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">   Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                               </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">   Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                               </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>CLOCK        </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">                0</td><td style="text-align: right;">2,538,731,520</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        16
-1                0   109640192  ...       0.25                        16
-2                0        4096  ...       0.25                        16
-3           283648   751226880  ...       0.25                        16
-4           102400   824202752  ...       0.25                        16
-..             ...         ...  ...        ...                       ...
-144        3952640  2436737024  ...       0.25                        16
-145        2867200  2568366080  ...       0.25                        16
-146              0  4752003584  ...       0.25                        16
-147          12288  4096712704  ...       0.25                        16
-148           4096  3710507008  ...       0.25                        16
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>CLOCK        </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">                0</td><td style="text-align: right;">2,538,731,520</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                        16
+1                0   109640192          0                0  ...           0      CLOCK       0.25                        16
+2                0        4096          0                0  ...           0      CLOCK       0.25                        16
+3           283648   751226880          0                0  ...      283648      CLOCK       0.25                        16
+4           102400   824202752      16384                0  ...      102400      CLOCK       0.25                        16
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144        3952640  2436737024    3917312                0  ...     3952640      CLOCK       0.25                        16
+145        2867200  2568366080    2337280                0  ...     2867200      CLOCK       0.25                        16
+146              0  4752003584      45568                0  ...           0      CLOCK       0.25                        16
+147          12288  4096712704     197632                0  ...       12288      CLOCK       0.25                        16
+148           4096  3710507008     987136                0  ...        4096      CLOCK       0.25                        16
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>FIFO         </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">                0</td><td style="text-align: right;">2,538,731,520</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        16
-1                0   109640192  ...       0.25                        16
-2                0        4096  ...       0.25                        16
-3           283648   751226880  ...       0.25                        16
-4           102400   824202752  ...       0.25                        16
-..             ...         ...  ...        ...                       ...
-144        3952640  2436737024  ...       0.25                        16
-145        2867200  2568366080  ...       0.25                        16
-146              0  4752003584  ...       0.25                        16
-147          12288  4096712704  ...       0.25                        16
-148           4096  3710507008  ...       0.25                        16
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>FIFO         </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">                0</td><td style="text-align: right;">2,538,731,520</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                        16
+1                0   109640192          0                0  ...           0       FIFO       0.25                        16
+2                0        4096          0                0  ...           0       FIFO       0.25                        16
+3           283648   751226880          0                0  ...      283648       FIFO       0.25                        16
+4           102400   824202752      16384                0  ...      102400       FIFO       0.25                        16
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144        3952640  2436737024    3917312                0  ...     3952640       FIFO       0.25                        16
+145        2867200  2568366080    2337280                0  ...     2867200       FIFO       0.25                        16
+146              0  4752003584      45568                0  ...           0       FIFO       0.25                        16
+147          12288  4096712704     197632                0  ...       12288       FIFO       0.25                        16
+148           4096  3710507008     987136                0  ...        4096       FIFO       0.25                        16
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>LRU          </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">       9,279</td><td style="text-align: right;">479,356</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">      959,949,312</td><td style="text-align: right;">3,498,680,832</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        16
-1                0   109640192  ...       0.25                        16
-2                0        4096  ...       0.25                        16
-3           283648   751226880  ...       0.25                        16
-4           102400   824202752  ...       0.25                        16
-..             ...         ...  ...        ...                       ...
-144        3952640  2436737024  ...       0.25                        16
-145        2867200  2568366080  ...       0.25                        16
-146              0  4752003584  ...       0.25                        16
-147          12288  4096712704  ...       0.25                        16
-148           4096  3710507008  ...       0.25                        16
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>LRU          </td><td style="text-align: right;">   470,077</td><td style="text-align: right;">       9,279</td><td style="text-align: right;">479,356</td><td style="text-align: right;">  2,538,731,520</td><td style="text-align: right;">      959,949,312</td><td style="text-align: right;">3,498,680,832</td><td style="text-align: right;">   16,036,816,384</td><td style="text-align: right;">  892,383,473,152</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                        16
+1                0   109640192          0                0  ...           0        LRU       0.25                        16
+2                0        4096          0                0  ...           0        LRU       0.25                        16
+3           283648   751226880          0                0  ...      283648        LRU       0.25                        16
+4           102400   824202752      16384                0  ...      102400        LRU       0.25                        16
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144        3952640  2436737024    3917312              512  ...     3953152        LRU       0.25                        16
+145        2867200  2568366080    2337280             5120  ...     2872320        LRU       0.25                        16
+146              0  4752003584      45568             9216  ...        9216        LRU       0.25                        16
+147          12288  4096712704     197632             1024  ...       13312        LRU       0.25                        16
+148           4096  3710507008     987136              512  ...        4608        LRU       0.25                        16
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>Offline CLOCK</td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  5,077,463,040</td><td style="text-align: right;">                0</td><td style="text-align: right;">5,077,463,040</td><td style="text-align: right;">   32,073,632,768</td><td style="text-align: right;">1,784,766,946,304</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        16
-1                0   109640192  ...       0.25                        16
-2                0        4096  ...       0.25                        16
-3           283648   751226880  ...       0.25                        16
-4           102400   824202752  ...       0.25                        16
-..             ...         ...  ...        ...                       ...
-144        3952640  2436737024  ...       0.25                        16
-145        2867200  2568366080  ...       0.25                        16
-146              0  4752003584  ...       0.25                        16
-147          12288  4096712704  ...       0.25                        16
-148           4096  3710507008  ...       0.25                        16
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        16</td><td>Offline CLOCK</td><td style="text-align: right;">   470,077</td><td style="text-align: right;">           0</td><td style="text-align: right;">470,077</td><td style="text-align: right;">  5,077,463,040</td><td style="text-align: right;">                0</td><td style="text-align: right;">5,077,463,040</td><td style="text-align: right;">   32,073,632,768</td><td style="text-align: right;">1,784,766,946,304</td><td style="text-align: right;">           0.99946</td><td style="text-align: right;">            0.845191</td><td style="text-align: right;">     98,632</td><td style="text-align: right;">   33,407,299</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=16,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                        16
+1                0   109640192          0  ...  Offline CLOCK       0.25                        16
+2                0        4096          0  ...  Offline CLOCK       0.25                        16
+3           283648   751226880          0  ...  Offline CLOCK       0.25                        16
+4           102400   824202752      16384  ...  Offline CLOCK       0.25                        16
+..             ...         ...        ...  ...            ...        ...                       ...
+144        3952640  2436737024    3917312  ...  Offline CLOCK       0.25                        16
+145        2867200  2568366080    2337280  ...  Offline CLOCK       0.25                        16
+146              0  4752003584      45568  ...  Offline CLOCK       0.25                        16
+147          12288  4096712704     197632  ...  Offline CLOCK       0.25                        16
+148           4096  3710507008     987136  ...  Offline CLOCK       0.25                        16
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
@@ -1353,65 +1353,65 @@
 <h5 id="detail-table_5">Detail Table</h5>
 <table>
 <thead>
-<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                               </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </th></tr>
+<tr><th>Admission Threshold Method  </th><th style="text-align: right;">  Flash Admission Treshold</th><th>Algorithm    </th><th style="text-align: right;">  Inserted</th><th style="text-align: right;">  Reinserted</th><th style="text-align: right;">  Write</th><th style="text-align: right;">  Byte Inserted</th><th style="text-align: right;">  Byte Reinserted</th><th style="text-align: right;">  Byte Write</th><th style="text-align: right;">  Byte Flash Read</th><th style="text-align: right;">  Byte Flash Miss</th><th style="text-align: right;">  Flash Miss Ratio</th><th style="text-align: right;">  Overall Miss Ratio</th><th style="text-align: right;">  Flash Hit</th><th style="text-align: right;">  Overall Hit</th><th style="text-align: right;">  Flash Request</th><th style="text-align: right;">  Overall Request</th><th>Trace  </th><th>JSON File                                                                                               </th><th style="text-align: right;">  Cache Size</th><th>DRAM Algorithm  </th><th style="text-align: right;">  DRAM Miss Ratio</th><th style="text-align: right;">  DRAM Hit</th><th style="text-align: right;">  DRAM Request</th><th style="text-align: right;">  DRAM Size</th><th style="text-align: right;">  Ignore Obj Size</th><th>Flash Metrics Time  </th></tr>
 </thead>
 <tbody>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>CLOCK        </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 127,706,112</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        32
-1                0   109640192  ...       0.25                        32
-2                0        4096  ...       0.25                        32
-3            12288   751226880  ...       0.25                        32
-4            20480   824206848  ...       0.25                        32
-..             ...         ...  ...        ...                       ...
-144              0  2440438784  ...       0.25                        32
-145           4096  2570450944  ...       0.25                        32
-146              0  4752015872  ...       0.25                        32
-147              0  4096874496  ...       0.25                        32
-148              0  3711076352  ...       0.25                        32
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>CLOCK        </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 127,706,112</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0      CLOCK       0.25                        32
+1                0   109640192          0                0  ...           0      CLOCK       0.25                        32
+2                0        4096          0                0  ...           0      CLOCK       0.25                        32
+3            12288   751226880          0                0  ...       12288      CLOCK       0.25                        32
+4            20480   824206848      12288                0  ...       20480      CLOCK       0.25                        32
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144              0  2440438784     215552                0  ...           0      CLOCK       0.25                        32
+145           4096  2570450944     252416                0  ...        4096      CLOCK       0.25                        32
+146              0  4752015872      33280                0  ...           0      CLOCK       0.25                        32
+147              0  4096874496      35840                0  ...           0      CLOCK       0.25                        32
+148              0  3711076352     417792                0  ...           0      CLOCK       0.25                        32
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>FIFO         </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 127,706,112</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        32
-1                0   109640192  ...       0.25                        32
-2                0        4096  ...       0.25                        32
-3            12288   751226880  ...       0.25                        32
-4            20480   824206848  ...       0.25                        32
-..             ...         ...  ...        ...                       ...
-144              0  2440438784  ...       0.25                        32
-145           4096  2570450944  ...       0.25                        32
-146              0  4752015872  ...       0.25                        32
-147              0  4096874496  ...       0.25                        32
-148              0  3711076352  ...       0.25                        32
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>FIFO         </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 127,706,112</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,fifo,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json         </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0       FIFO       0.25                        32
+1                0   109640192          0                0  ...           0       FIFO       0.25                        32
+2                0        4096          0                0  ...           0       FIFO       0.25                        32
+3            12288   751226880          0                0  ...       12288       FIFO       0.25                        32
+4            20480   824206848      12288                0  ...       20480       FIFO       0.25                        32
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144              0  2440438784     215552                0  ...           0       FIFO       0.25                        32
+145           4096  2570450944     252416                0  ...        4096       FIFO       0.25                        32
+146              0  4752015872      33280                0  ...           0       FIFO       0.25                        32
+147              0  4096874496      35840                0  ...           0       FIFO       0.25                        32
+148              0  3711076352     417792                0  ...           0       FIFO       0.25                        32
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>LRU          </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">       1,402</td><td style="text-align: right;">  6,874</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">      279,632,896</td><td style="text-align: right;"> 407,339,008</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        32
-1                0   109640192  ...       0.25                        32
-2                0        4096  ...       0.25                        32
-3            12288   751226880  ...       0.25                        32
-4            20480   824206848  ...       0.25                        32
-..             ...         ...  ...        ...                       ...
-144              0  2440438784  ...       0.25                        32
-145           4096  2570450944  ...       0.25                        32
-146              0  4752015872  ...       0.25                        32
-147              0  4096874496  ...       0.25                        32
-148              0  3711076352  ...       0.25                        32
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>LRU          </td><td style="text-align: right;">     5,472</td><td style="text-align: right;">       1,402</td><td style="text-align: right;">  6,874</td><td style="text-align: right;">    127,706,112</td><td style="text-align: right;">      279,632,896</td><td style="text-align: right;"> 407,339,008</td><td style="text-align: right;">   15,634,540,032</td><td style="text-align: right;">  892,785,749,504</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,lru,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json          </td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  byte_reinserted  ...  byte_write  Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0                0  ...           0        LRU       0.25                        32
+1                0   109640192          0                0  ...           0        LRU       0.25                        32
+2                0        4096          0                0  ...           0        LRU       0.25                        32
+3            12288   751226880          0                0  ...       12288        LRU       0.25                        32
+4            20480   824206848      12288                0  ...       20480        LRU       0.25                        32
+..             ...         ...        ...              ...  ...         ...        ...        ...                       ...
+144              0  2440438784     215552                0  ...           0        LRU       0.25                        32
+145           4096  2570450944     252416             4608  ...        8704        LRU       0.25                        32
+146              0  4752015872      33280             8704  ...        8704        LRU       0.25                        32
+147              0  4096874496      35840              512  ...         512        LRU       0.25                        32
+148              0  3711076352     417792                0  ...           0        LRU       0.25                        32
 
-[149 rows x 13 columns]</td></tr>
-<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>Offline CLOCK</td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    255,412,224</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 255,412,224</td><td style="text-align: right;">   31,269,080,064</td><td style="text-align: right;">1,785,571,499,008</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  ...  DRAM Size  Flash Admission Treshold
-0                0   234722304  ...       0.25                        32
-1                0   109640192  ...       0.25                        32
-2                0        4096  ...       0.25                        32
-3            12288   751226880  ...       0.25                        32
-4            20480   824206848  ...       0.25                        32
-..             ...         ...  ...        ...                       ...
-144              0  2440438784  ...       0.25                        32
-145           4096  2570450944  ...       0.25                        32
-146              0  4752015872  ...       0.25                        32
-147              0  4096874496  ...       0.25                        32
-148              0  3711076352  ...       0.25                        32
+[149 rows x 13 columns]                     </td></tr>
+<tr><td>cache                       </td><td style="text-align: right;">                        32</td><td>Offline CLOCK</td><td style="text-align: right;">     5,472</td><td style="text-align: right;">           0</td><td style="text-align: right;">  5,472</td><td style="text-align: right;">    255,412,224</td><td style="text-align: right;">                0</td><td style="text-align: right;"> 255,412,224</td><td style="text-align: right;">   31,269,080,064</td><td style="text-align: right;">1,785,571,499,008</td><td style="text-align: right;">          0.999629</td><td style="text-align: right;">            0.845334</td><td style="text-align: right;">     67,660</td><td style="text-align: right;">   33,376,327</td><td style="text-align: right;">    182,487,590</td><td style="text-align: right;">      215,796,257</td><td>w01    </td><td>w01[0.005,offline-clock,cloudphysics,dram=lru,dram_size=0.25,admission_treshold=32,threshold=cache].json</td><td style="text-align: right;">       0.005</td><td>lru             </td><td style="text-align: right;">         0.845648</td><td style="text-align: right;">33,308,667</td><td style="text-align: right;">   215,796,257</td><td style="text-align: right;">       0.25</td><td style="text-align: right;">                0</td><td>byte_inserted   byte_miss  byte_read  ...      Algorithm  DRAM Size  Flash Admission Treshold
+0                0   234722304          0  ...  Offline CLOCK       0.25                        32
+1                0   109640192          0  ...  Offline CLOCK       0.25                        32
+2                0        4096          0  ...  Offline CLOCK       0.25                        32
+3            12288   751226880          0  ...  Offline CLOCK       0.25                        32
+4            20480   824206848      12288  ...  Offline CLOCK       0.25                        32
+..             ...         ...        ...  ...            ...        ...                       ...
+144              0  2440438784     215552  ...  Offline CLOCK       0.25                        32
+145           4096  2570450944     252416  ...  Offline CLOCK       0.25                        32
+146              0  4752015872      33280  ...  Offline CLOCK       0.25                        32
+147              0  4096874496      35840  ...  Offline CLOCK       0.25                        32
+148              0  3711076352     417792  ...  Offline CLOCK       0.25                        32
 
-[149 rows x 13 columns]</td></tr>
+[149 rows x 13 columns]                     </td></tr>
 </tbody>
 </table>
 
